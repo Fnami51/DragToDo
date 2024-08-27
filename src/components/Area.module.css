@@ -1,0 +1,8 @@
+.background{
+    display: block;
+    background-color: #4b4b4b;
+    margin-top: 36px;
+    border-radius: 20px;
+    width: 92%;
+    height: 70vh;
+}

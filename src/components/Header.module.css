@@ -1,0 +1,22 @@
+.background{
+    display: flex;
+    justify-content: end;
+    padding-top: 54px;
+    width: 92%;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    height: 40px;
+    width: 114px;
+    padding: 7px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.button_text{
+    color: black;
+    font-weight: 600;
+}
