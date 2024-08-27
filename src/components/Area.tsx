@@ -1,11 +1,14 @@
-import styles from './Area.module.css'
+import styles from './Area.module.css';
 
 function Area() {
 
   return (
-    <div className={styles.background}>
-    </div>
-  )
+    <article className={styles.background}>
+      <div className={styles.bounds}>
+        
+      </div>
+    </article>
+  );
 }
 
-export default Area
+export default Area;
