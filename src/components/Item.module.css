@@ -1,7 +1,29 @@
 .background{
     background-color: white;
-    border-radius: 15px;
-    margin: 10px;
-    padding: 20px;
+    border-radius: 10px;
+    padding: 5px;
+    width: 160px;
 }
 
+.button_box{
+    display: flex;
+    justify-content: end;
+}
+
+.button{
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+    border-radius: 6px;
+    background-color: #f4a5a0;
+}
+
+.topic{
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.list{
+    margin: 5px 15px 15px 15px;
+}

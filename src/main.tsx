@@ -4,11 +4,14 @@ import App from './App.tsx'
 import './index.css'
 import { DndProvider } from 'react-dnd'
 import { HTML5Backend } from 'react-dnd-html5-backend'
+import ItemsProvider from './context/ItemContext.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <DndProvider backend={HTML5Backend}>
-      <App />
+      <ItemsProvider>
+        <App />
+      </ItemsProvider>
     </DndProvider>
   </StrictMode>,
 )
