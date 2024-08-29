@@ -3,7 +3,11 @@ import { useItems } from '../hooks/useItems';
 import styles from './AddTask.module.css';
 import { ItemType } from '../interface/ItemType';
 
-function AddTask({ id }: { id: number }) {
+interface AddTaskProps {
+    id: number;
+}
+
+function AddTask({ id }: AddTaskProps) {
   const [taskTitle, setTaskTitle] = useState('');
   const { items, setItem } = useItems();
 
