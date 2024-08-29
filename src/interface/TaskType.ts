@@ -1,5 +1,5 @@
 export interface TaskType{
-    _id: number;
+    task_id: number;
     title: string;
     isComplete: boolean;
 }

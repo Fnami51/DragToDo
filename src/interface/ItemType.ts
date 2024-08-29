@@ -7,4 +7,5 @@ export interface ItemType {
         x: number;
         y: number;
     }
+    isChange: boolean
 }

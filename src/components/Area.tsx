@@ -9,7 +9,7 @@ function Area() {
   return (
     <article className={styles.background}>
       <div className={styles.bounds}>
-        {items.map((item: ItemType) => <Item id={item.id} tasks={item.tasks} position={item.position}/>)}
+        {items.map((item: ItemType) => <Item id={item.id} tasks={item.tasks} position={item.position} isChange={item.isChange}/>)}
       </div>
     </article>
   );

@@ -8,6 +8,7 @@
 .button_box{
     display: flex;
     justify-content: end;
+    gap: 5px;
 }
 
 .button{
@@ -15,15 +16,26 @@
     height: 20px;
     padding: 2px;
     border-radius: 6px;
+    
+}
+
+.btn_delete{
     background-color: #f4a5a0;
+}
+
+.btn_change{
+    background-color: #a0a5f4;
 }
 
 .topic{
     font-weight: 700;
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 5px;
 }
 
 .list{
     margin: 5px 15px 15px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }

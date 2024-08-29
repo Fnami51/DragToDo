@@ -16,14 +16,20 @@ function ItemsProvider({ children }: ItemsProviderProps) {
     const [items, setItem] = useState<ItemType[]>([{
         id: 1,
         tasks: [{
-            _id: 1,
+            task_id: 1,
+            title: 'Test',
+            isComplete: false,
+        }, 
+        {
+            task_id: 2,
             title: 'Test',
             isComplete: false,
         }],
         position: {
             x: 10,
             y: 10,
-        }
+        },
+        isChange: false
     }]);
 
     return (
